@@ -1,0 +1,27 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all numpy array files
+*.npy
+
+# Ignore all image and video files
+*.jpg
+*.jpeg
+*.png
+*.avi
+
+
+# Ignore the DAiSEE folder. Folder contains very large dataset
+DAiSEE/
+
+# Ignore the virtual environment folder
+myenv/
+
+# Temporarily ignoring the `models` folder on the `preprocessing` branch. 
+# This folder may contain saved models that can be large and may not be relevant to preprocessing work.
+models/
+
