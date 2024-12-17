@@ -25,3 +25,7 @@ myenv/
 # This folder may contain saved models that can be large and may not be relevant to preprocessing work.
 models/
 
+split-data/
+
+.tmp.driveupload
+
