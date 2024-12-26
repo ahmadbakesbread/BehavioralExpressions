@@ -29,3 +29,11 @@ split-data/
 
 .tmp.driveupload
 
+haarcascades
+
+opencv-dnn
+
+resized_faces
+
+resized_gray_faces
+
