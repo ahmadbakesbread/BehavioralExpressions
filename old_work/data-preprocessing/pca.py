@@ -1,5 +1,7 @@
 from sklearn.preprocessing import StandardScaler 
 from sklearn.decomposition import PCA
+import os
+import numpy as np
 
 
 # Directory containing extracted features saved as .npy files
@@ -35,4 +37,3 @@ features_normalized = scaler.fit_transform(features)
 # Apply PCA to reduce dimensionality while retaining 95% of the variance
 pca = PCA(n_components=0.95)
 features_reduced = pca.fit_transform(features_normalized)
-
